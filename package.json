@@ -11,7 +11,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://tsabrandon.github.io/portfolio",
+  "homepage": "https://tsabrandon.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
