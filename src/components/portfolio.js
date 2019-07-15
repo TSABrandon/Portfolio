@@ -94,7 +94,7 @@ function Portfolio(props) {
 
 <Col lg={3} >
 <Card className="m-1" mx-style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/todojsBanner.png" />
+  <Card.Img variant="top" height="110px" src="https://raw.githubusercontent.com/Tsabrandon/portfolioNew/master/img/crudappbanner.png" />
   <Card.Body className="text-center">
     <Card.Title>CRUD React</Card.Title>
     <Card.Text>
