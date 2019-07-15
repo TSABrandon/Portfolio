@@ -1,0 +1,77 @@
+.fixed-bottom{
+    background-color: rgb(46, 52, 64);
+    margin-top: 50px;
+}
+
+div.col#herotext *{
+    display: flex;
+    color: rgb(202, 204, 209);
+    justify-content: center;
+}
+p.display-5{
+    font-size: 20px;
+}
+
+
+
+button.btn.btn-primary{
+    background-color: #38706b !important;
+    border:solid 4px #38706b !important;
+    outline: none;
+    display:block;
+    margin-top: 20px;
+    border-color: none;
+}
+a.btn{
+    background-color: #38706b !important;
+    border:solid 4px #38706b !important;
+}
+
+div#secondrow.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+div#secondrow.row *{
+    margin: 5px;
+}
+
+
+button#first.btn.btn-primary.btn-lg:hover{
+    background-color: #2e5e5a !important;
+    border:solid 4px #2e5e5a !important;
+
+}
+
+button#second.btn.btn-primary.btn-lg{
+    background: transparent !important;
+    border:solid 3px #455566 !important;
+}
+button#second.btn.btn-primary.btn-lg:hover{
+    background: transparent !important;
+    border:solid 3px #596c80 !important;
+    color: rgb(179, 182, 187);
+}
+
+/* div.col.row a{
+   outline: none; 
+   border-color: #38706b !important;
+} */
+
+div.col#herotext a:hover {
+    outline: none;
+    border: none;
+    border-bottom: none;
+    text-decoration: none;
+    border-color: none;
+}
+
+
+@media only screen and (max-width: 768px){
+
+        div.mt-5.row{
+
+            margin-top: 10px !important;
+        }
+
+}
