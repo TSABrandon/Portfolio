@@ -19,7 +19,7 @@ class App extends React.Component {
       navExpanded: false,
       title: "Brandon",
       headerLinks: [
-        { title: "Home", path: "/" },
+        { title: "Home", path: "/reactPortfolio" },
         { title: "About", path: "/about" },
         { title: "Portfolio", path: "/portfolio" },
         { title: "Home", path: "/contact" }
@@ -52,7 +52,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar collapseOnSelect fixed="top" expand="lg" className="navbg navbar-dark">
-            <Navbar.Brand className="navbar-dark"> <Link to="/"><img width="60px" src="https://tsabrandon.github.io/portfolioNew/img/logo.png"/> </Link> </Navbar.Brand>
+            <Navbar.Brand className="navbar-dark"> <Link to="/reactPortfolio"><img width="60px" src="https://tsabrandon.github.io/portfolioNew/img/logo.png"/> </Link> </Navbar.Brand>
             <Navbar.Toggle
               aria-controls="navbar-toggle"
               className="ml-auto border-0"
@@ -60,7 +60,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Nav.Link href="#features">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/reactPortfolio">
                  
                   Home
                 </Link></Nav.Link>
@@ -84,7 +84,7 @@ class App extends React.Component {
           </Navbar>
         </Container>
         <Container>
-        <Route path="/" exact render={() => <Homepage title= {this.state.home.title} subTitle ={this.state.home.subTitle}/>} />
+        <Route path="/reactPortfolio" exact render={() => <Homepage title= {this.state.home.title} subTitle ={this.state.home.subTitle}/>} />
         <Route path="/about"  render={() => <Aboutpage title= {this.state.about.title} />} />
         <Route path="/portfolio"  render={() => <Portfoliopage title= {this.state.portfolio.title} />} />
         <Route path="/contact"  render={() => <Contactpage title= {this.state.contact.title} />} />
