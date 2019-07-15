@@ -20,9 +20,9 @@ class App extends React.Component {
       title: "Brandon",
       headerLinks: [
         { title: "Home", path: "/reactPortfolio" },
-        { title: "About", path: "/about" },
-        { title: "Portfolio", path: "/portfolio" },
-        { title: "Home", path: "/contact" }
+        { title: "About", path: "/reactPortfolio/about" },
+        { title: "Portfolio", path: "/reactPortfolio/portfolio" },
+        { title: "Home", path: "/reactPortfolio/contact" }
       ],
       home: {
         title: "Hi, I'm Brandon",
@@ -65,17 +65,17 @@ class App extends React.Component {
                   Home
                 </Link></Nav.Link>
                  <Nav.Link href="#features">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/reactPortfolio/about">
                   About
                 </Link>
                 </Nav.Link>
                 <Nav.Link href="#features">
-                <Link className="nav-link" to="/portfolio">
+                <Link className="nav-link" to="/reactPortfolio/portfolio">
                   portfolio
                 </Link>
                 </Nav.Link>
                 <Nav.Link href="#features">
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/reactPortfolio/contact">
                   Contact
                 </Link>
                 </Nav.Link>
@@ -85,9 +85,9 @@ class App extends React.Component {
         </Container>
         <Container>
         <Route path="/reactPortfolio" exact render={() => <Homepage title= {this.state.home.title} subTitle ={this.state.home.subTitle}/>} />
-        <Route path="/about"  render={() => <Aboutpage title= {this.state.about.title} />} />
-        <Route path="/portfolio"  render={() => <Portfoliopage title= {this.state.portfolio.title} />} />
-        <Route path="/contact"  render={() => <Contactpage title= {this.state.contact.title} />} />
+        <Route path="/reactPortfolio/about"  render={() => <Aboutpage title= {this.state.about.title} />} />
+        <Route path="/reactPortfolio/portfolio"  render={() => <Portfoliopage title= {this.state.portfolio.title} />} />
+        <Route path="/reactPortfolio/contact"  render={() => <Contactpage title= {this.state.contact.title} />} />
         <Footer />
 
         </Container>
