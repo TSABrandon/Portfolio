@@ -28,7 +28,7 @@ function Portfolio(props) {
               <Card.Text>
                 A responsive website using pure css hosted using github
     </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/consultancy/">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/consultancy/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -40,7 +40,7 @@ function Portfolio(props) {
               <Card.Text>
                 Responsive Design using bootstrap hosted in github
     </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/carousel">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/carousel" target="_blank">View</Button>
             </Card.Body>
           </Card>
 
@@ -53,7 +53,7 @@ function Portfolio(props) {
               <Card.Text>
                 Simple CRUD App using Reactjs and bootstrap
     </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/SitepointJrTestGHPages/">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/SitepointJrTestGHPages/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -65,7 +65,7 @@ function Portfolio(props) {
               <Card.Text>
                 Flappy Bird Game Clone using Phaserjs
     </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/flappyman/">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/flappyman/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -79,7 +79,7 @@ function Portfolio(props) {
               <Card.Text>
                 Todolist using javascript and materialize
     </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/todojs/">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/todojs/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -91,7 +91,7 @@ function Portfolio(props) {
               <Card.Text>
                 Net Ninja Website clone using HTML and CSS
               </Card.Text>
-              <Button className="text-center" formtarget="_blank" href="https://tsabrandon.github.io/TheNetNinjaClone/">View</Button>
+              <Button className="text-center" formtarget="_blank" href="https://tsabrandon.github.io/TheNetNinjaClone/" target="_blank">View</Button>
             </Card.Body>
           </Card>
 
@@ -104,7 +104,7 @@ function Portfolio(props) {
               <Card.Text>
                 Homepage using HTML and CSS hosted in github
               </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/ToyCoLndngPg/">View</Button>
+              <Button className="text-center" href="https://tsabrandon.github.io/ToyCoLndngPg/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
