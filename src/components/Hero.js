@@ -27,10 +27,10 @@ function Hero(props) {
               <h5 className="display-5 font-weight-bolder">{props.subTitle}</h5>
             )}
             <Row id="secondrow">
-            <Link to="reactPortfolio/portfolio">
+            <Link to="portfolio">
               <Button id="first" size="lg">Portfolio</Button>
             </Link>
-            <Link to="reactPortfolio/contact">
+            <Link to="contact">
               <Button size="lg" id="second">Contact</Button>
             </Link>
             </Row>
