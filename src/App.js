@@ -19,7 +19,7 @@ class App extends React.Component {
       navExpanded: false,
       title: "Brandon",
       headerLinks: [
-        { title: "Home", path: "/reactPortfolio" },
+        { title: "Home", path: "/reactPortfolio/" },
         { title: "About", path: "/reactPortfolio/about" },
         { title: "Portfolio", path: "/reactPortfolio/portfolio" },
         { title: "Home", path: "/reactPortfolio/contact" }
