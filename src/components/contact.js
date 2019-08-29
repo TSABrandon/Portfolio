@@ -35,15 +35,16 @@ function Contact(props) {
           name="Message: "
           placeholder="Please Enter your message here"
           rows="3"
+          required
         />
       </Form.Group>
 
       <Form.Group>
-        <Form.Control name="Full Name: " placeholder="Full name" />
+        <Form.Control name="Full Name: " placeholder="Full name" required />
       </Form.Group>
 
       <Form.Group controlId="formBasicEmail">
-        <Form.Control name="Email: " type="email" placeholder="Enter email" />
+        <Form.Control name="Email: " type="email" placeholder="Enter email" required />
         <Form.Text className="text-muted">
           I will never share your email with anyone else.
         </Form.Text>

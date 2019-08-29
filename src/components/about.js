@@ -19,9 +19,8 @@ function About(props) {
             )}
             <br/>
             <br/>
-            <p className="display-5"> Hello, my name is Brandon, Im a Frontend Developer with experience in HTML, CSS, Javascript, HAML, React, Node JS, Ruby on Rails, wordpress and other CMS .</p>
-            <p className="display-5"> I'm constantly learning new things. currently those things include gaining more experience with, Javascript, React, Node JS and Backend Development specifically Ruby on Rails.</p>
-            <p className="display-5"> My Goal is to be a full stack developer and Im currently learning more deeper about backend development and hopefully switch to Fullstack role someday</p>
+            <p className="display-5"> Hello, my name is Brandon, Im a Frontend Developer with experience in HTML, CSS, Javascript, HAML, React, Angular, Ionic, cordova, Node JS, Ruby on Rails, wordpress and other CMS .</p>
+            <p className="display-5"> I'm constantly learning new things. currently those things include gaining more experience with Javascript, React, Angular, Node JS and Backend Development specifically Ruby on Rails.</p>
            </Col>
         </Row>
       </Jumbotron>
