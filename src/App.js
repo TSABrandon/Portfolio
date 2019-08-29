@@ -52,7 +52,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar collapseOnSelect fixed="top" expand="lg" className="navbg navbar-dark">
-            <Navbar.Brand className="navbar-dark"> <Link to="/reactPortfolio"><img width="60px" src="https://tsabrandon.github.io/portfolioNew/img/logo.png"/> </Link> </Navbar.Brand>
+            <Navbar.Brand className="navbar-dark"> <Link to="/reactPortfolio/"><img width="60px" src="https://tsabrandon.github.io/portfolioNew/img/logo.png"/> </Link> </Navbar.Brand>
             <Navbar.Toggle
               aria-controls="navbar-toggle"
               className="ml-auto border-0"
@@ -60,7 +60,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Nav.Link href="#features">
-                <Link className="nav-link" to="/reactPortfolio">
+                <Link className="nav-link" to="/reactPortfolio/">
                  
                   Home
                 </Link></Nav.Link>
