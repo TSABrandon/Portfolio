@@ -26,7 +26,7 @@ class App extends React.Component {
       ],
       home: {
         title: "Hi, I'm Brandon",
-        subTitle: "I am a Frontend Developer and currently learning Backend Development specifically Ruby on Rails",
+        subTitle: "I am a Developer and currently learning Backend Development specifically Ruby on Rails",
         text: " Im also currently learning backend development "
       },
       about: {

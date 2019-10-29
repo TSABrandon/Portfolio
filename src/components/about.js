@@ -19,7 +19,7 @@ function About(props) {
             )}
             <br/>
             <br/>
-            <p className="display-5"> Hello, my name is Brandon, Im a Frontend Developer with experience in HTML, CSS, Javascript, HAML, React, Angular, Ionic, cordova, Node JS, Ruby on Rails, wordpress and other CMS .</p>
+            <p className="display-5"> Hello, my name is Brandon, Im Developer with experience in HTML, CSS, Javascript, HAML, React, Angular, Ionic, cordova, Node JS, Ruby on Rails, wordpress and other CMS .</p>
             <p className="display-5"> I'm constantly learning new things, currently those things include gaining more experience with Javascript, React, Angular, Node JS, App development and Backend Development specifically Ruby on Rails.</p>
            </Col>
         </Row>

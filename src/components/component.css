@@ -12,7 +12,12 @@ p.display-5{
     font-size: 20px;
 }
 
-
+.row-top {
+    margin-top: 80px;
+}
+.col-m {
+    margin: 5px 0;
+}
 
 button.btn.btn-primary{
     background-color: #38706b !important;

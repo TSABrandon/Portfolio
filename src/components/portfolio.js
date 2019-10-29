@@ -19,71 +19,45 @@ function Portfolio(props) {
 
   return (
     <>
-      <Row className="justify-content-md-center mt-5">
-        <Col lg={3} >
+      <Row className="justify-content-md-center row-top">
+      <Col lg={3} className="col-m" >
+          <Card mt={5}>
+            <Card.Img width="10px" variant="top" src="https://raw.githubusercontent.com/Tsabrandon/portfolioNew/master/img/mobile.jpg" />
+            <Card.Body className="text-center">
+              <Card.Title>Phone Online Store</Card.Title>
+              <Card.Text>
+                Simple e commerce, you can select and add to card the item and go to checkout.
+              </Card.Text>
+              <Button className="text-center" href="https://tsabrandon.github.io/phonestore/" target="_blank">View</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col lg={3} className="col-m" >
           <Card mt={5}>
             <Card.Img width="10px" variant="top" src="https://tsabrandon.github.io/portfolioNew/img/consultancyBanner.png" />
             <Card.Body className="text-center">
               <Card.Title>Responsive Design</Card.Title>
               <Card.Text>
                 A responsive website using pure css hosted using github
-    </Card.Text>
+              </Card.Text>
               <Button className="text-center" href="https://tsabrandon.github.io/consultancy/" target="_blank">View</Button>
             </Card.Body>
           </Card>
         </Col>
-        <Col lg={3} >
+        <Col lg={3} className="col-m" >
           <Card className="m-1" mx-style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/p5.png" />
             <Card.Body className="text-center">
               <Card.Title>Tech Digital Solution</Card.Title>
               <Card.Text>
                 Responsive Design using bootstrap hosted in github
-    </Card.Text>
+              </Card.Text>
               <Button className="text-center" href="https://tsabrandon.github.io/carousel" target="_blank">View</Button>
             </Card.Body>
           </Card>
+        </Col>
 
-        </Col>
-        <Col lg={3} >
-          <Card className="m-1" mx-style={{ width: '18rem' }}>
-            <Card.Img variant="top" height="110px" src="https://raw.githubusercontent.com/Tsabrandon/portfolioNew/master/img/crudappbanner.png" />
-            <Card.Body className="text-center">
-              <Card.Title>CRUD React</Card.Title>
-              <Card.Text>
-                Simple CRUD App using Reactjs and bootstrap
-    </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/SitepointJrTestGHPages/" target="_blank">View</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg={3} >
-          <Card className="m-1" mx-style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/flappyBanner.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Flappy Man</Card.Title>
-              <Card.Text>
-                Flappy Bird Game Clone using Phaserjs
-    </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/flappyman/" target="_blank">View</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-      <Row className="mt-5" style={portfolioStyle}>
-        <Col lg={3} >
-          <Card className="m-1" mx-style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/todojsBanner.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Todolist</Card.Title>
-              <Card.Text>
-                Todolist using javascript and materialize
-    </Card.Text>
-              <Button className="text-center" href="https://tsabrandon.github.io/todojs/" target="_blank">View</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg={3} >
+        <Col lg={3} className="col-m" >
           <Card className="m-1" mx-style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/netNinja.png" />
             <Card.Body className="text-center">
@@ -96,7 +70,48 @@ function Portfolio(props) {
           </Card>
 
         </Col>
-        <Col lg={3} >
+      </Row>
+      <Row className="mt-1" style={portfolioStyle}>
+        <Col lg={3} className="col-m" >
+          <Card className="m-1" mx-style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/flappyBanner.png" />
+            <Card.Body className="text-center">
+              <Card.Title>Flappy Man</Card.Title>
+              <Card.Text>
+                Flappy Bird Game Clone using Phaserjs
+              </Card.Text>
+              <Button className="text-center" href="https://tsabrandon.github.io/flappyman/" target="_blank">View</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={3} className="col-m" >
+          <Card className="m-1" mx-style={{ width: '18rem' }}>
+            <Card.Img variant="top" height="110px" src="https://raw.githubusercontent.com/Tsabrandon/portfolioNew/master/img/crudappbanner.png" />
+            <Card.Body className="text-center">
+              <Card.Title>CRUD React</Card.Title>
+              <Card.Text>
+                Simple CRUD App using Reactjs and bootstrap
+              </Card.Text>
+              <Button className="text-center" href="https://tsabrandon.github.io/SitepointJrTestGHPages/" target="_blank">View</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={3} className="col-m" >
+          <Card className="m-1" mx-style={{ width: '18rem' }}>
+            <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/todojsBanner.png" />
+            <Card.Body className="text-center">
+              <Card.Title>Todolist</Card.Title>
+              <Card.Text>
+                Todolist using javascript and materialize
+              </Card.Text>
+              <Button className="text-center" href="https://tsabrandon.github.io/todojs/" target="_blank">View</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={3} className="col-m" >
           <Card className="m-1" mx-style={{ width: '18rem' }}>
             <Card.Img variant="top" src="https://tsabrandon.github.io/portfolioNew/img/toyCompany.png" />
             <Card.Body className="text-center">
